@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/img/food-icon.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="#"><img src="./assets/img/header/logo.svg" alt="Logo Delivery Food"></a>
+            <input type="text" class="header-icon header-input" placeholder="Адрес доставки">
+
+            <div class="hamburger-menu header-buttons">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <div class="menu__box">
+                    <button> <img src="./assets/img/header/signin.svg" alt="Icon Sign in"> Войти</button>
+                    <button> <img src="./assets/img/header/cart.svg" alt=""> Корзина</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="promo-bg"></div>
+            <div class="promo-text">
+                <h1>Онлайн-сервис <br /> доставки еды на дом</h1>
+                <p>Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
+            </div>
+            <h2>Рестораны</h2>
+            <input class="search-icon" type="text" placeholder="Поиск блюд и ресторанов">
+
+            <div class="cards">
+                <article class="card">
+                    <img class="card-img" src="./assets/img/main/card-1.png" alt="Image Pizza Plus">
+                    <div class="card-description">
+                        <div class="title">
+                            <h3>Пицца плюс</h3>
+                            <span class="label">50 мин</span>
+                        </div>
+                        <div class="subtitle">
+                            <span class="rating">
+                                <img src="./assets/img/main/star.svg" alt="Rating Star">
+                                4.5
+                            </span>
+                            <p class="price">От 900 ₽ <span class="dot"></span> Пицца</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card-img" src="./assets/img/main/card-2.png" alt="Image Tanuki">
+                    <div class="card-description">
+                        <div class="title">
+                            <h3>Тануки</h3>
+                            <span class="label">50 мин</span>
+                        </div>
+                        <div class="subtitle">
+                            <span class="rating">
+                                <img src="./assets/img/main/star.svg" alt="Rating Star">
+                                4.5
+                            </span>
+                            <p class="price">От 900 ₽ <span class="dot"></span> Пицца</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card-img" src="./assets/img/main/card-3.png" alt="Image FoodBand">
+                    <div class="card-description">
+                        <div class="title">
+                            <h3>FoodBand</h3>
+                            <span class="label">50 мин</span>
+                        </div>
+                        <div class="subtitle">
+                            <span class="rating">
+                                <img src="./assets/img/main/star.svg" alt="Rating Star">
+                                4.5
+                            </span>
+                            <p class="price">От 900 ₽ <span class="dot"></span> Пицца</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card-img" src="./assets/img/main/card-4.png" alt="Image Zadina Pizza">
+                    <div class="card-description">
+                        <div class="title">
+                            <h3>Жадина-пицца</h3>
+                            <span class="label">50 мин</span>
+                        </div>
+                        <div class="subtitle">
+                            <span class="rating">
+                                <img src="./assets/img/main/star.svg" alt="Rating Star">
+                                4.5
+                            </span>
+                            <p class="price">От 900 ₽ <span class="dot"></span> Пицца</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card-img" src="./assets/img/main/card-5.png" alt="Image Food Point">
+                    <div class="card-description">
+                        <div class="title">
+                            <h3>Точка еды</h3>
+                            <span class="label">50 мин</span>
+                        </div>
+                        <div class="subtitle">
+                            <span class="rating">
+                                <img src="./assets/img/main/star.svg" alt="Rating Star">
+                                4.5
+                            </span>
+                            <p class="price">От 900 ₽ <span class="dot"></span> Пицца</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img class="card-img" src="./assets/img/main/card-6.png" alt="Image Pizza Burger">
+                    <div class="card-description">
+                        <div class="title">
+                            <h3>PizzaBurger</h3>
+                            <span class="label">50 мин</span>
+                        </div>
+                        <div class="subtitle">
+                            <span class="rating">
+                                <img src="./assets/img/main/star.svg" alt="Rating Star">
+                                4.5
+                            </span>
+                            <p class="price">От 900 ₽ <span class="dot"></span> Пицца</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <section class="info">
+                <h2>Доставка и оплата</h2>
+                <article class="info-article">
+                    <div class="info-article__img"><img src="./assets/img/main/free.svg" alt=""></div>
+                    <h3>60 минут или пицца бесплатно</h3>
+                    <p>Если мы не успеем доставить продукты в течение 60 минут, курьер подарит вам сертификат или
+                        промокод
+                        на большую пиццу 35 см на традиционном тесте.</p>
+                </article>
+                <article class="info-article">
+                    <div class="info-article__img"><img src="./assets/img/main/price.svg" alt=""></div>
+                    <h3>Сумма доставки</h3>
+                    <p><span>759руб.</span> Минимальная сумма доставки</p>
+                </article>
+                <article class="info-article">
+                    <div class="info-article__img"><img src="./assets/img/main/vegetables.svg" alt=""></div>
+                    <h3>Гарантия свежести продуктов</h3>
+                    <p>Два раза в день наши сотрудники проверяют срок годности продуктов
+                        и внешний вид фруктов и овощей. Мы поддерживаем температуру
+                        2–4 °С в холодильниках и ‑18 °С
+                        в морозильных камерах.</p>
+                </article>
+                <article class="info-article">
+                    <div class="info-article__img"><img src="./assets/img/main/fridge.svg" alt=""></div>
+                    <h3>Проще, чем открыть холодильник</h3>
+                    <p>Еда уже близко. Устанавливай приложение и заказывай еду из любимого ресторана.</p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <nav class="navigation">
+                <a href="#"><img src="./assets/img/header/logo.svg" alt="Logo Delivery Food"></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#">Ресторанам</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Курьерам</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Пресс-центр</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="#">
+                            <img src="./assets/img/footer/instagram.png" alt="Icon Instagram">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#">
+                            <img src="./assets/img/footer/facebook.png" alt="Icon Facebook">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#">
+                            <img src="./assets/img/footer/vk.png" alt="Icon VK">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
